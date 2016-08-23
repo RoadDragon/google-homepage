@@ -14,9 +14,12 @@ div {
 li {
 	display: inline-block;
 	vertical-align: middle;
-
 	padding-right: 10px;
 
+}
+
+li a:hover {
+	text-decoration: underline;
 }
 
 .center {
@@ -35,9 +38,68 @@ input[type=text] {
     box-sizing: border-box;
 }
 
+#feelinglucky {
+	color:#000;
+}
+
+table {
+	margin: auto;
+	font-size: 12px;
+	font-weight: bold;
+	border: 100px;
+	position: relative;
+	top: 5px;
+	border-spacing: 40px;
+}
+
+tr td {
+
+	padding: 10px;
+	float:center;
+	margin: 20px;
+	border-spacing: 10px;
+	/*background-color: red;*/
 
 }
 
+td:hover {
+	border-width: 1px;
+	border-color: #a1a1a1;
+	border-style: solid;
+	color:#000;
+}
+
+td:active {
+	border-width: 1px;
+	border-color: #0266C8;
+	border-style: solid;
+	color:#000;
+}
+
+
+a {
+	text-decoration: none;
+	color: #737373;
+}
+
+
+
+td a: hover {
+	color:#000;
+}
+
+#footer {
+	position:absolute;
+	bottom:0px;
+	background-color: red;
+}
+
+#alignright {
+	display:inline-block;
+	position:relative;
+	margin-right: 0px;
+	background-color: blue;
+}
 
 
 
